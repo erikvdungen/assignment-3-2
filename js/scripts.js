@@ -8,7 +8,7 @@ $("#Hand").hide();
 
 
 $("#Ted").on("click", function() {
+    console.log = ("Ted");
     $(".tedbox").show();
-    console.log("Ted");
 });
 
