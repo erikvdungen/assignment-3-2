@@ -6,6 +6,9 @@ $("#Uk").hide();
 $("#Price").hide();
 $("#Hand").hide();
 
+
 $("#Ted").on("click", function() {
     $(".tedbox").show();
+    console.log("Ted");
 });
+
