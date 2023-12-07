@@ -76,12 +76,12 @@ $(".button-right-lily").on("click", function() {
         right.play();
 });
 
-$(".button-wrong").on("click", function() {
-    $(".tedbox, .robinbox, .barneybox, .marshallbox, .lilybox").hide(2000);
-    $(".button-wrong").css("background-color", "red");
+$("#button-wrong").on("click", function() {
+    $(".tedbox,.robinbox,.barneybox,.marshallbox,.lilybox,").hide(2000);
     all.css("filter", "none");
     console.log("wrong");
 });
+
 
 $(".button-wrong").on("click", function() {
     wrong.play();
