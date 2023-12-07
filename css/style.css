@@ -16,6 +16,10 @@
 	/* Add any other styles or positioning properties as needed */
 }
 
+#Ted, #Robin, #Barney, #Marshall, #Lily {
+	cursor: pointer;
+}
+
 * {
     box-sizing: border-box;
 }
