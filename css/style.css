@@ -1,15 +1,68 @@
-.tedbox {
-    background-color: rgb(14, 13, 13);
-    min-width: 20px;
-    min-height: 20px;
-    width: 10vw;
-    height: 10vw;
-    margin: 1vw;
-    padding: 5px;
-    border-radius: 30px;
-    color: whitesmoke;
+.tedbox, .robinbox, .barneybox, .marshallbox, .lilybox {
+	background-color: rgb(14, 13, 13);
+	min-width: 20px;
+	min-height: 20px;
+	width: 20vw;
+	height: 20vw;
+	margin: 1vw;
+	padding: 5px;
+	border-radius: 30px;
+	color: whitesmoke;
+	position: absolute; /* or position: relative; */
+	top: 30vh;
+	left: 38vw;
+	z-index: 1; /* Ensure the elements are stacked above the SVG image */
+	/* Add any other styles or positioning properties as needed */
 }
 
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.wrap {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.button-right {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-wrong {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
 
 
 .st0{fill:#212A2E;}
