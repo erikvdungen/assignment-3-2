@@ -36,7 +36,64 @@ body {
     justify-content: center;
 }
 
-.button-right {
+.button-right-ted {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+
+.button-right-robin {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-right-barney {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-right-marshall {
+	background-color: #c4c4c4;
+	border: 2px;
+	border-radius: 5px;
+	width: 200px;
+	align-content: center;
+	color: rgb(5, 15, 15);
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.button-right-lily {
 	background-color: #c4c4c4;
 	border: 2px;
 	border-radius: 5px;
